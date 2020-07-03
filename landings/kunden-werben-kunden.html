@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <!--titleIncludes-->
+    <link rel="icon" type="image/png" href="https://lpc-assets-onpr.s3.amazonaws.com/assets/img/favicon-32x32.png"
+          sizes="32x32">
+    <link rel="icon" type="image/png" href="https://lpc-assets-onpr.s3.amazonaws.com/assets/img/favicon-16x16.png"
+          sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunden werben Kunden: Das Empfehlungsprogramm von Admiral Markets</title>
+    <meta name="description"
+          content="Kunden werben Kunden: Empfehlen Sie uns Ihren Freunden und sichern sich 100 EUR Aufwandsentschädigung für jeden, direkt auf das Live-Konto."/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://lpc-assets-onpr.s3.amazonaws.com/assets/common/css/main.css">
+    <style>.hero-bg {
+            background-image: url("https://fxstatic.s3.amazonaws.com/images/bg/hero/reffer_a_friend.jpg");
+        }
+
+        .msg-error, #thanks {
+            display: none;
+        }
+
+        input[type='tel'], input[type='email'] {
+            font-size: 16px;
+            font-size: 1rem;
+            border-radius: 4px;
+            line-height: normal;
+            vertical-align: middle;
+            outline: none;
+            display: block;
+            width: 100%;
+            height: 48px;
+            border: solid 1px #E3E3EA;
+            padding-right: 15px;
+            padding-left: 15px;
+            background-color: #fff;
+        }
+
+        .has-error input[type='tel'], .has-error input[type='email'] {
+            border-color: #F35959;
+            background-color: #fef6f6;
+        }
+
+        .scrollToTop {
+            width: 60px;
+            height: 75px;
+            padding: 0;
+            font-weight: 700;
+            color: #444;
+            text-decoration: none;
+            position: fixed;
+            bottom: 40px;
+            left: 40px;
+            display: none;
+            background: url("https://dce5jani6jm7e.cloudfront.net/images/page/se/miscs-icon-top.svg") 0 20px no-repeat;
+            cursor: pointer;
+        }
+
+        #hero:after {
+            opacity: 0.4;
+        }
+
+        .form-field label {
+            font-size: 0.85rem;
+        }
+
+        .grecaptcha-logo, .grecaptcha-badge {
+            display: none;
+        }
+    </style>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KT9XPJ');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript">
+        !function () {
+            var analytics = window.analytics = window.analytics || [];
+            if (!analytics.initialize)
+                if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice.");
+                else {
+                    analytics.invoked = !0;
+                    analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "page", "once", "off", "on"];
+                    analytics.factory = function (t) {
+                        return function () {
+                            var e = Array.prototype.slice.call(arguments);
+                            e.unshift(t);
+                            analytics.push(e);
+                            return analytics
+                        }
+                    };
+                    for (var t = 0; t < analytics.methods.length; t++) {
+                        var e = analytics.methods[t];
+                        analytics[e] = analytics.factory(e)
+                    }
+                    analytics.load = function (t) {
+                        var e = document.createElement("script");
+                        e.type = "text/javascript";
+                        e.async = !0;
+                        e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+                        var n = document.getElementsByTagName("script")[0];
+                        n.parentNode.insertBefore(e, n)
+                    };
+                    analytics.SNIPPET_VERSION = "3.1.0";
+                    analytics.load("ob6AEigpwrjGhKl5QhJ5AABVHmCvPtkz");
+                    analytics.page()
+                }
+        }();
+    </script>
+
+
+</head>
+<body>
+
+<div id="page" class="page wrapper">
+    <div style="position: relative">
+        <header class="homeHeader">
+            <div class="container">
+                <a href="../index.html" class="logo"></a>
+                <div class="actions">
+                    <a href="https://admiralmarkets.de/ueber-uns/kontakt/" class="contact edit"
+                       style="outline: none; cursor: inherit;" target="_blank">Kontakt</a>
+                    <a href="https://tr.admiralmarkets.co.uk/index/auth/lang/de" class="btn"
+                       style="outline: none; cursor: inherit;" target="_blank">TRADER ROOM</a>
+                </div>
+            </div>
+        </header>
+        <div id="hero" class="hero-bg">
+            <div class="container text-center">
+                <h1 class="animated fadeIn"
+                    style="color: rgb(255, 255, 255); font-size: 40px; text-align: center; font-style: normal; font-weight: bold; text-transform: none;">
+                    Empfehlen Sie Admiral Markets Ihren Freunden und sichern sich eine 100 EUR Prämie.</h1>
+                <p class="animated fadeIn"><br>Sobald die Bedingungen erfüllt sind, erhalten Sie und die geworbene
+                    Person eine 100 EUR Prämie direkt auf das Live-Konto.<br></p>
+                <div style="margin-top:50px;"><a href="" class="btn animated fadeIn"
+                                                 style="outline: none; cursor: inherit;">JETZT EMPFEHLEN</a></div>
+            </div>
+            <div class="riskWarning">
+
+            </div>
+        </div>
+    </div>
+    <section class="section-light">
+        <div class="container equal-height">
+            <div class="content-left">
+                <h2>Und so funktioniert die Empfehlung:</h2>
+                <p style="outline: none; cursor: inherit;">Füllen Sie das rechte Formular komplett aus. Tragen Sie Ihre
+                    Daten, sowie die des neuen Kunden ein und klicken auf "JETZT EMPFEHLEN".<br><br>
+                    Unsere Mitarbeiter prüfen die Daten und schicken Ihnen und dem neuen Kunden innerhalb von 48 Stunden
+                    eine Bestätigung zu.<br><br>
+                    Sobald alle Bedingungen erfüllt sind, meldet sich die geworbene Person bei uns zwecks Einholung der
+                    Prämie. Wir kümmern uns um den Rest.<br><br>
+                    <b style="font-weight: 900">WICHTIGER HINWEIS:</b> Aufgrund der gesetzlichen und regulatorischen
+                    Vorgaben in der Europäischen Union richtet sich dieses Angebot ausschließlich an Kunden mit
+                    Professional Client Status. Dies betrifft sowohl den werbenden, wie auch den geworbenen
+                    Kunden.<br><br>
+                    Kunden mit Retail Client Status können leider nicht teilnehmen!
+
+                </p>
+                <p>
+                </p>
+            </div>
+
+            <noscript class="form">
+    <style>
+        form{
+            display: none !important;
+        }
+        noscript.form{
+            max-width: 50%;
+            margin: 0 auto;
+        }
+        @media  all and (max-width: 768px) {
+            noscript.form{
+                max-width: 100%;
+                margin: 0 auto;
+                margin-bottom: 40px;
+            }
+        }
+    </style>
+        <div class="row">
+            <div class="alert error align-self-center">
+                Schakel javascript-ondersteuning in uw browser in
+            </div>
+        </div>
+
+</noscript>
+<form action="" method="post" class="form right-form basis basis-shadow" id="reg-form">
+
+    <h2 class="text-center" style="outline: none; cursor: inherit;">Kunden werben Kunden</h2>
+    <p class="text-center" style="outline: none; cursor: inherit;">Empfehlen Sie Ihre Freunde und sichern sich 100 EUR für beide!</p>
+    <br>
+            <div id="name-div" class="form-field ">
+
+                            <label for="name-id" class="editable-text" style="outline: none; cursor: inherit;">Ihr Vor -und Nachname:</label>
+                                    <input type="text" id="name-id" name="name" value="" />
+                
+                                    </div>
+            <div id="email-div" class="form-field ">
+
+                            <label for="email-id" class="editable-text" style="outline: none; cursor: inherit;">Ihre E-Mail:</label>
+                                    <input type="email" id="email-id" name="email" value="" />
+                
+                                    </div>
+            <div id="name1-div" class="form-field ">
+
+                            <label for="name1-id" class="editable-text" style="outline: none; cursor: inherit;">Neuer Kunde: Vor- und Nachname:</label>
+                                    <input type="text" id="name1-id" name="name1" value="" />
+                
+                                    </div>
+            <div id="email1-div" class="form-field ">
+
+                            <label for="email1-id" class="editable-text" style="outline: none; cursor: inherit;">Neuer Kunde: E-Mail:</label>
+                                    <input type="email" id="email1-id" name="email1" value="" />
+                
+                                    </div>
+            <div id="TermsAgreement-div" class="form-field ">
+
+                            <label for="TermsAgreement-id" class="check-field terms">
+                    <input type="checkbox" name="TermsAgreement" id="TermsAgreement-id" value="1" />
+                    <span class="input-element"></span>
+                    <span class="option-label editable-text" style="outline: none; cursor: inherit;">Ich akzeptiere <a href="https://admiralfiles.s3.amazonaws.com/docs/DE/DE-Privacy-Policy-AM-UK.pdf" target="_blank">die Datenschutzrichtlinien</a>, sowie <a href="https://fxstatic.s3.amazonaws.com/pdf/de/admiral-markets-kunden-werben-kunden.pdf" class="edit-link" style="outline: none;" target="_blank">die <strong>Bedingungen</strong>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           der Aktion</a> und bestätige, volljährig zu sein.</span>
+                </label>
+                    </div>
+            <div id="emails-div" class="form-field ">
+
+                            <label for="emails-id" class="check-field terms">
+                    <input type="checkbox" name="emails" id="emails-id" value="1" />
+                    <span class="input-element"></span>
+                    <span class="option-label editable-text" style="outline: none; cursor: inherit;">Ja, ich würde gerne Informationen rund um Neuigkeiten und Aktionen von Admiral Markets erhalten.</span>
+                </label>
+                    </div>
+    
+    <button type="submit" class="btn btn-block" style="outline: none; cursor: inherit;" id="submit">JETZT EMPFEHLEN</button>
+
+    <input type="hidden" name="Source" value="">
+    <input type="hidden" name="Medium" value="">
+    <input type="hidden" name="Keyword" value="">
+    <input type="hidden" name="Campaign" value="">
+    <input type="hidden" name="Source_first" value="">
+    <input type="hidden" name="Medium_first" value="">
+    <input type="hidden" name="Keyword_first" value="">
+    <input type="hidden" name="Campaign_first" value="">
+    <input type="hidden" name="current_url" value="">
+    <input type="hidden" name="is_ajax" value="1" />
+</form>
+
+
+<div class="right-form text-center" id="thanks" style="height: 400px;">
+    <div class="thank-you text-center m-t-lg">
+        <div class="success-ico">
+            <svg width="140px" height="140px" id="success-mark" viewBox="-30 -10 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <circle id="path-1" cx="40" cy="40" r="40"></circle>
+                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+                        <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                        <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                        <feColorMatrix values="0 0 0 0 0.0576808937   0 0 0 0 0.658349277   0 0 0 0 0.312394702  0 0 0 0.268653759 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                    </filter>
+                </defs>
+                <g id="Oval-3" stroke="none" fill="none">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#2ECC71" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M57.6816925,26.3659282 C55.9012807,25.0592621 53.3934399,25.4506055 52.0935148,27.2219743 L37.6442079,46.9116105 L29.8407752,37.4816527 C28.4353824,35.7833239 25.9184274,35.5468189 24.215331,36.95644 L25.0807554,36.2401444 C23.3793012,37.6484063 23.135713,40.1624295 24.5481362,41.8692088 L35.4217599,55.0089509 C36.8290567,56.7095355 39.0324455,56.6401615 40.337941,54.8611209 L57.6317832,31.294247 C58.9396183,29.5120182 58.5582376,27.0092353 56.7761073,25.7013081 L57.6816925,26.3659282 Z" id="Page-1" stroke="none" fill="#FFFFFF" fill-rule="evenodd"></path>
+            </svg>
+        </div>
+        <h1 class="text-ellipsis" style="margin-bottom: 0px;">Vielen Dank!</h1>
+        <p>Ihre Empfehlung wurde entgegengenommen. <br>Sie und der neue Kunde erhalten bald eine Bestätigung.</p>
+        <div style="margin-top: 15px;">
+            <a href="../index.html" class="btn btn-outline" style="outline: none; cursor: inherit;">ZUR STARTSEITE</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var isAjax = true;
+
+    window.register =  function () {
+        $('.form-field').removeClass('has-error');
+        $('.msg-error').remove();
+        $('#submit').html('Sending ....');
+        var form = $('#reg-form');
+
+        if (isAjax === true) {
+            $.ajax({
+                type : 'POST',
+                data: form.serialize(),
+                dataType: 'json',
+                success: function (response) {
+                    if (response.errors != undefined) {
+                        $('#submit').html('JETZT EMPFEHLEN');
+                        for (i in response.errors) {
+                            $('#' + i + '-div').addClass('has-error').append('<span class="msg-error">' + response.errors[i][0] + '</span>');
+                        }
+                        grecaptcha.reset();
+                    }
+                    else {
+                        if ( response.ok == true){
+                            $('#reg-form').hide();
+                            $('#thanks').show();
+                        }
+                        else {
+                            alert('Captcha validation failed');
+                        }
+                    }
+                }
+            });
+        }
+        return !isAjax;
+    };
+</script>
+
+        </div>
+    </section>
+    <section class="section-light">
+        <div class="container">
+            <h2 class="text-center">4 Gründe für den Handel mit Admiral Markets UK</h2>
+            <div class="rowf4 indent-lg">
+                <div class="col text-center">
+                    <div class="icon icon--circle icon--indent icon--blue">
+                        <i class="fi fi-icon-06" style="outline: none; cursor: inherit;"></i>
+                    </div>
+                    <h3 style="outline: none; cursor: inherit;">Langjährige Erfahrung</h3>
+                    <p style="outline: none; cursor: inherit;">Marktführende Technologien, bewährte Sicherheit,
+                        Expertise im Trading
+                        sowie globale Präsenz - Sie können auf uns zählen! Wir sind für Sie da.</p>
+                </div>
+                <div class="col text-center">
+                    <div class="icon icon--circle icon--indent icon--blue">
+                        <i class="fi fi-icon-22" id="ui-id-6" style="outline: none; cursor: inherit;"></i>
+                    </div>
+                    <h3 style="outline: none; cursor: inherit;">Geringste Spreads</h3>
+                    <p style="outline: none; cursor: inherit;">Handeln Sie beim DAX-Spezialisten den beliebten deutschen
+                        Aktienindex - DAX30 - zum unschlagbaren Spread von nur 0,8 Punkten zu Haupthandelszeit.</p>
+                </div>
+                <div class="col text-center">
+                    <div class="icon icon--circle icon--indent icon--blue">
+                        <i class="fi fi-icon-23" id="ui-id-7" style="outline: none; cursor: inherit;"></i>
+                    </div>
+                    <h3 style="outline: none; cursor: inherit;">Kundenservice aus Berlin</h3>
+                    <p style="outline: none; cursor: inherit;">Mit
+                        unserem <strong>professionellen Support direkt aus Berlin</strong> erleben Sie einen Service,
+                        der seinesgleichen sucht. Überzeugen Sie sich selbst!</p>
+                </div>
+                <div class="col text-center">
+                    <div class="icon icon--circle icon--indent icon--blue">
+                        <i class="fi fi-icon-30" id="ui-id-8" style="outline: none; cursor: inherit;"></i>
+                    </div>
+                    <h3 style="outline: none; cursor: inherit;">Einlagensicherung</h3>
+                    <p style="outline: none; cursor: inherit;">Admiral Markets UK Ltd wird durch die Financial Conduct
+                        Authority (FCA)
+                        im Vereinigten Königreich reguliert, inkl. Einlagensicherung bis zu 75.000 GBP durch das
+                        FSCS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p class="risk-warning" style="margin-top: 0px;"></p>
+            <article>
+                <p style="outline: none; cursor: inherit;"><strong>Risikowarnung:</strong>
+                    <strong>Der Handel mit Devisen und CFDs ist mit
+                        einem enormen Risiko verbunden und möglicherweise nicht für Sie
+                        geeignet! Es besteht die Möglichkeit, dass Sie Verluste erleiden, die gleich Ihrem gesamten
+                        Investment sind. Daher sollten Sie
+                        keine Gelder einsetzen, deren Verlust Sie im schlimmsten Fall nicht
+                        verkraften könnten. Sie sollten sicherstellen, all diese Risiken
+                        verstanden zu haben. Bevor Sie den Service von Admiral Markets UK Ltd in
+                        Anspruch nehmen, stellen Sie bitte sicher, dass Sie mit den verbundenen
+                        Risiken beim Trading vertraut sind.</strong></p><br>
+                <p>Der Inhalt dieser Webseite darf NICHT als
+                    Anlageberatung missverstanden werden! Admiral Markets UK empfiehlt,
+                    sofern notwendig, sich von unabhängiger Stelle beraten zu lassen.</p><br>
+                <p>Admiral Markets UK Ltd ist im vollständigen
+                    Besitz der global aufgestellten Admiral Markets Group AS. Admiral
+                    Markets Group AS ist eine Holdinggesellschaft, deren Vermögenswerte
+                    maßgebendes Eigenkapital von Admiral Markets AS und dessen
+                    Tochtergesellschaften Admiral Markets UK Ltd. und Admiral Markets Pty.
+                    sind.</p>
+                <br>
+                <p>Alle Bezüge dieser Seite auf 'Admiral Markets'
+                    verweisen auf Admiral Markets UK Ltd. und Tochtergesellschaften von
+                    Admiral Markets Group AS.</p></article>
+            <p></p>
+            <div></div>
+            <div class="basement indent-md">
+                <div class="terms">
+                    <p style="margin-top: 0px; outline: none; cursor: inherit;">Admiral Markets UK Ltd ist reguliert von
+                        der Financial Conduct Authority, FCA, Registernummer 595450.</p>
+                    <p style="outline: none; cursor: inherit;">Admiral Markets (UK) Ltd. ist registriert in England
+                        &amp; Wales unter
+                        Companies House, Registered Number 08171762. Unternehmensanschrift: 16
+                        St. Clare Street, London EC3N 1LQ, UK.</p>
+                    <ul class="footer-social indent-sm">
+                        <li><a href="https://www.facebook.com/AdmiralMarketsGermany"
+                               style="outline: none; cursor: inherit;" target="_blank"><b
+                                        class="fa fa-facebook"></b></a></li>
+                        <li><a href="https://twitter.com/AM_Germany" style="outline: none; cursor: inherit;"
+                               target="_blank"><b class="fa fa-twitter"></b></a></li>
+                        <li><a href="http://www.linkedin.com/company/-admiral-markets-group"
+                               style="outline: none; cursor: inherit;" target="_blank"><b
+                                        class="fa fa-linkedin"></b></a></li>
+                        <li><a href="https://plus.google.com/118116842425093908757"
+                               style="outline: none; cursor: inherit;" target="_blank"><b class="fa fa-google-plus"></b></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/admiralmarketsde/"
+                               style="outline: none; cursor: inherit;" target="_blank"><b
+                                        class="fa fa-instagram"></b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+    .risk-floated {
+        position: fixed;
+        padding: 0;
+        background-color: rgba(66, 69, 89, 0.9);
+        bottom: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .risk-floated__asic {
+        display: none;
+    }
+
+    .risk-floated__asic .risk-floated__wrapper {
+        position: relative;
+        padding-left: 45px;
+    }
+    .risk-floated__asic .risk-floated__body {
+        position: static;
+    }
+
+    .risk-floated b {
+        font-weight: 800;
+    }
+
+    .risk-floated p {
+        margin: 0;
+        max-width: 1160px;
+        color: #F1F2F4;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+    }
+
+    .risk-floated__body {
+        position: relative;
+        padding: 18px 0px;
+    }
+
+    .risk-floated__title {
+        font-weight: bold;
+        line-height: 1 !important;
+        display: none;
+    }
+
+    .risk-floated__toggle {
+        display: none;
+    }
+
+    .risk-floated__toggle .fa {
+        font-size: 12px;
+        color: #F1F2F4;
+    }
+
+    .risk-floated__close {
+        left: 15px;
+        display: block;
+        position: absolute;
+        top: 15px;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        font-size: 16px;
+        border-radius: 50%;
+        padding: 5px 0;
+        background: rgba(241, 242, 244, 0.16);
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+
+        .risk-floated__asic .risk-floated__wrapper {
+            padding-left: 0;
+            padding-right: 45px;
+        }
+
+        .risk-floated__close {
+            left: auto;
+            right: 10px;
+            top: 10px;
+        }
+
+        .risk-floated__title {
+            display: block;
+        }
+
+        .risk-floated__text {
+            text-align: left !important;
+        }
+
+        .risk-floated__toggle {
+            display: block;
+            position: absolute;
+            left: 13px;
+            top: 12px;
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            padding: 8px 0;
+            background: rgba(241, 242, 244, 0.16);
+            text-align: center;
+        }
+
+        .risk-floated__body {
+            padding: 19px 0px;
+        }
+
+        .risk-floated__asic  .risk-floated__body  {
+            padding: 10px 0px 10px 10px;
+        }
+
+        .risk-floated__body.opened {
+            padding: 10px 20px 10px 53px;
+        }
+
+        .risk-floated__body .fa-chevron-down,
+        .risk-floated__text {
+            display: none;
+        }
+
+        .risk-floated__asic .risk-floated__title {
+            display: none;
+        }
+
+        .risk-floated__asic .risk-floated__text {
+            display: block;
+        }
+
+        .risk-floated__body.opened .fa-chevron-up,
+        .risk-floated__body.opened .risk-floated__title {
+            display: none;
+        }
+
+        .risk-floated__body.opened .fa-chevron-down,
+        .risk-floated__body.opened .risk-floated__text {
+            display: block;
+        }
+
+        div[data-test-id="ChatWidgetMobileButton"].zopim {
+            bottom: 10px !important;
+            right: 10px !important;
+            left: auto !important;
+            top: auto !important;
+            position: fixed !important;
+        }
+    }
+</style>
+
+<div class="risk-floated" id="bottom-warn-notice" dir="ltr">
+    <div class="risk-floated__wrapper">
+        <div class="risk-floated__body container">
+            <p class="text-center risk-floated__title">
+                Risikohinweis
+            </p>
+            <p class="text-center risk-floated__text">
+                CFDs sind komplexe Instrumente und gehen wegen der Hebelwirkung mit dem hohen Risiko einher, schnell Geld zu verlieren.
+                <b>79%</b>
+                <b> der Kleinanlegerkonten verlieren Geld beim CFD-Handel mit diesem Anbieter.</b>
+                Sie sollten überlegen, ob Sie verstehen, wie CFDs funktionieren und ob Sie es sich leisten können, das hohe Risiko einzugehen, Ihr Geld zu verlieren.
+            </p>
+            <span class="risk-floated__toggle">
+                <i class="fa fa-chevron-up"></i>
+                <i class="fa fa-chevron-down"></i>
+            </span>
+        </div>
+    </div>
+</div>
+
+<script>
+    if(typeof setCookie === "undefined" ) {
+        var setCookie = function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + '=' + cvalue + '; ' + expires;
+        };
+    }
+    if(typeof getCookie === "undefined" ) {
+        var getCookie = function getCookie(cname) {
+            var name = cname + '=',
+                ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) return c.substring(name.length, c.length);
+            }
+            return "";
+        };
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        var riskWarning = $('.risk-floated__body');
+
+        if (!getCookie("ESMA_RISK_WARNING_CLICKED")) {
+            riskWarning.toggleClass('opened');
+        }
+
+        riskWarning.click(function () {
+            riskWarning.toggleClass('opened');
+            if (!getCookie("ESMA_RISK_WARNING_CLICKED")) {
+                setCookie('ESMA_RISK_WARNING_CLICKED', 1, 360);
+            }
+        });
+    });
+</script>
+    <div class="scrollToTop hidden-xs"></div>
+</div>
+
+<script src="https://dce5jani6jm7e.cloudfront.net/components/sourcebuster/dist/sourcebuster.min.js"></script>
+<script type="text/javascript">
+    function place_data() {
+        $('input[name="Source"]').val(sbjs.get.current.src);
+        $('input[name="Medium"]').val(sbjs.get.current.mdm);
+        $('input[name="Keyword"]').val(sbjs.get.current.trm);
+        $('input[name="Campaign"]').val(sbjs.get.current.cmp);
+        //$('input[name="Content"]').val(sbjs.get.current.cnt);
+
+        $('input[name="Source_first"]').val(sbjs.get.first.src);
+        $('input[name="Medium_first"]').val(sbjs.get.first.mdm);
+        $('input[name="Keyword_first"]').val(sbjs.get.first.trm);
+        $('input[name="Campaign_first"]').val(sbjs.get.first.cmp);
+        //$('input[name="Content_first"]').val(sbjs.get.current.cnt);
+
+        $('input[name="current_url"]').val(document.URL);
+    }
+
+    document.addEventListener('sbjs:ready', function () {
+        place_data();
+    }, false);
+    sbjs.init();
+    place_data();
+
+</script>
+<script>
+    $(document).ready(function () {
+
+        $('a.btn.animated.fadeIn').on('click', function (e) {
+            e.preventDefault();
+            scrollToTitle();
+        });
+
+        function scrollToTitle(distance) {
+            distance = distance || 0;
+            $('body,html,document').animate({
+                scrollTop: $(".form").offset().top - distance
+            }, 750);
+        }
+    });
+</script>
+<script src='https://dce5jani6jm7e.cloudfront.net/js/min/scrollToTop.min.js' type='text/javascript'></script>'
+
+<script src='https://www.google.com/recaptcha/api.js?hl=de'></script>
+<script>
+
+
+
+    $(document).ready(function () {
+        var btn = $('button[type=submit]');
+        btn.attr('data-sitekey', '6LcxxWYUAAAAAEvPUrzykRw3s0ho4ejl2w--y6Sr');
+        btn.attr('data-callback', 'register');
+        $('button[type=submit]').addClass('g-recaptcha');
+    });
+</script>
+
+
+
+                                                                                                       <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KT9XPJ"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                                                                                                       <!-- End Google Tag Manager (noscript) -->
+</body>
+</html>
